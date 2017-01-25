@@ -1,12 +1,12 @@
 $(document).ready(function(){
-	var jqxhr = $.ajax( "example.php" )
+	var jqxhr = $.ajax( "bot.php" )
 	.done(function() {
-		alert( "success" );
+		console.log( "success" );
 	})
 	.fail(function() {
-		alert( "error" );
+		console.log( "error" );
 	})
 	.always(function() {
-		alert( "complete" );
+		console.log( "complete" );
 	});
 });
