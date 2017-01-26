@@ -1,0 +1,23 @@
+body {
+	background-color: #286791;
+	color: #FFFFFF;
+	margin: 5em;
+}
+
+#box {
+	margin-right: 1em;
+	margin-bottom: 3em;
+}
+
+#dat {
+	background-color: lightgray;
+}
+
+h1 {
+	font-family: fantasy;
+}
+
+#chat_log {
+	font-size: 2em;
+	font-family: fantasy;
+}
